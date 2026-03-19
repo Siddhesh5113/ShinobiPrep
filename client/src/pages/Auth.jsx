@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 import { motion } from "motion/react"
 import { signInWithPopup } from 'firebase/auth';
-import { auth, provider } from './Utils/firebase';
+import { auth, provider } from '../Utils/firebase';
 
 const Auth = () => {
 
